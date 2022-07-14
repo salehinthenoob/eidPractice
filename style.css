@@ -1,0 +1,223 @@
+body {
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Finlandica', sans-serif;
+
+    font-family: 'Gentium Book Plus', serif;
+
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image:
+        linear-gradient(to left, rgba(103, 103, 103, 0.52), rgba(0, 0, 0, 0.73)),
+        url(images/bg2.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 50px;
+    width: 40%;
+    padding: 80px 100px 20px;
+}
+
+header p {
+    width: 40%;
+    padding: 20px 100px;
+    margin-bottom: 40px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(252, 86, 57);
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: rgb(208, 233, 255);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px double rgb(92, 0, 0);
+    margin-left: 100px;
+}
+
+
+.explore {
+    display: flex;
+    padding-left: 2%;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.explore h1 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.explore p {
+    color: black;
+
+}
+
+.halfw {
+    max-width: 40%;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
+.halfw video {
+    margin: 5px;
+    width: 550px;
+    height: 350px;
+    padding: 20px;
+}
+
+.two {
+    display: flex;
+    padding-left: 5%;
+
+}
+
+
+.two {
+    display: flex;
+    padding-left: 2%;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    background-image: url(images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.two h1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding: 80px 20px 20px 20px;
+}
+
+.two p {
+    color: black;
+
+
+}
+
+.two img {
+    height: 450px;
+    width: 400px;
+    padding: 20px 80px;
+    margin: 20px;
+}
+
+#p2 {
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 200px;
+}
+
+.a,
+.b,
+.c,
+.d {
+    width: 35%;
+    display: flex;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    background: #FEF4F5;
+}
+
+
+.a2,
+.b2,
+.c2,
+.d2 {
+
+    padding-left: 20px;
+
+}
+
+.pic {
+    padding: 50px 150px;
+    display: flex;
+}
+
+.p2 {
+    padding: 10px 10px;
+
+}
+
+.p2 img {
+    height: 300px;
+}
+
+.fund {
+    display: flex;
+    padding-left: 10px;
+}
+
+.fund img {
+    height: 300px;
+    width: 350px;
+
+}
+
+.fundc {
+    border: 1px solid rgb(208, 208, 208);
+    padding: 0px 0px;
+    height: 430px;
+    width: 350px;
+    margin: 25px 20px;
+}
+
+.fundc h2,
+p,
+a {
+    padding-left: 20px;
+}
+
+.fundc a {
+    color: red;
+    font-weight: bold;
+
+}
+
+footer {
+    padding-top: 20px;
+    background-color: black;
+    height: 180px;
+    width: 110%;
+
+}
+
+footer h1 {
+    text-align: center;
+    color: tomato;
+    font-family: Gabriola;
+}
+
+footer p {
+    text-align: center;
+    color: aliceblue;
+}
